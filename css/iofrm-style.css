@@ -153,7 +153,8 @@ body {
 
 .img-holder .info-holder {
   position: relative;
-  top: 40%;
+  /* suresh need to set the top padding on images */
+  top: 45%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -203,8 +204,10 @@ body {
 }
 
 .img-holder .info-holder img {
+  /* Suresh size of hte images */
+  padding-top: 50px;
   width: 100%;
-  max-width: 378px;
+  max-width: 900px;
 }
 
 .img-holder .info-holder img.md-size {
